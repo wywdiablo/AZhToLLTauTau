@@ -89,6 +89,7 @@ int main(int argc, char * argv[]) {
 
     // trigger
     const bool applyTrigger = cfg.get<bool>("ApplyTrigger");
+    const bool applySingleEleTriggerOnly = cfg.get<bool>("ApplySingleEleTriggerOnly");
     const string eleTriggerName_1  = cfg.get<string>("EleTriggerName_1");
     const string eleTriggerName_2  = cfg.get<string>("EleTriggerName_2");
 
@@ -226,6 +227,9 @@ int main(int argc, char * argv[]) {
     Float_t muonSF_1;
     Float_t electronSF_1;
     Float_t electronIDSF_1;
+    Bool_t electronIDWP90v2_1;
+    Bool_t electronIDWP80v2_1;
+    
 
     //Leg 2 (subleading pt elec/mu from Z candidate)
     Float_t pt_2;
@@ -238,6 +242,8 @@ int main(int argc, char * argv[]) {
     Float_t muonSF_2;
     Float_t electronSF_2;
     Float_t electronIDSF_2;
+    Bool_t electronIDWP90v2_2;
+    Bool_t electronIDWP80v2_2;
     
     //Leg 3 (Based off of Higgs legs: ET -> E, MT -> M, EM -> E, TT -> highest pt tau)
     Float_t pt_3;
@@ -270,6 +276,11 @@ int main(int argc, char * argv[]) {
     Float_t muonSF_3;
     Float_t electronSF_3;
     Float_t electronIDSF_3;
+    Bool_t electronIDWP90v2_3;
+    Bool_t electronIDWP80v2_3;
+    Bool_t muonLoose_3;
+    Bool_t muonMedium_3;
+    Bool_t muonTight_3;
     Float_t tauSF_3;
     
     //Leg 4 (Based off of Higgs legs: ET -> T, MT -> T, EM -> M, TT -> subleading pt tau)
@@ -303,6 +314,11 @@ int main(int argc, char * argv[]) {
     Float_t muonSF_4;
     Float_t electronSF_4;
     Float_t electronIDSF_4;
+    Bool_t electronIDWP90v2_4;
+    Bool_t electronIDWP80v2_4;
+    Bool_t muonLoose_4;
+    Bool_t muonMedium_4;
+    Bool_t muonTight_4;
     Float_t tauSF_4;
     
     Float_t met;
@@ -370,6 +386,8 @@ int main(int argc, char * argv[]) {
     SynTree->Branch("muonSF_1",&muonSF_1,"muonSF_1/F");
     SynTree->Branch("electronSF_1",&electronSF_1,"electronSF_1/F");
     SynTree->Branch("electronIDSF_1",&electronIDSF_1,"electronIDSF_1/F");
+    SynTree->Branch("electronIDWP90v2_1",&electronIDWP90v2_1,"electronIDWP90v2_1/O");
+    SynTree->Branch("electronIDWP80v2_1",&electronIDWP80v2_1,"electronIDWP80v2_1/O");
 
     SynTree->Branch("pt_2",&pt_2,"pt_2/F");
     SynTree->Branch("phi_2",&phi_2,"phi_2/F");
@@ -381,6 +399,8 @@ int main(int argc, char * argv[]) {
     SynTree->Branch("muonSF_2",&muonSF_2,"muonSF_2/F");
     SynTree->Branch("electronSF_2",&electronSF_2,"electronSF_2/F");
     SynTree->Branch("electronIDSF_2",&electronIDSF_2,"electronIDSF_2/F");
+    SynTree->Branch("electronIDWP90v2_2",&electronIDWP90v2_2,"electronIDWP90v2_2/O");
+    SynTree->Branch("electronIDWP80v2_2",&electronIDWP80v2_2,"electronIDWP80v2_2/O");
 
     SynTree->Branch("pt_3",&pt_3,"pt_3/F");
     SynTree->Branch("phi_3",&phi_3,"phi_3/F");
@@ -410,8 +430,14 @@ int main(int argc, char * argv[]) {
     SynTree->Branch("VSmuVLoose_3",&VSmuVLoose_3,"VSmuVLoose_3/O");
     SynTree->Branch("pfmt_3",&pfmt_3,"pfmt_3/F");
     SynTree->Branch("muonSF_3",&muonSF_3,"muonSF_3/F");
+    SynTree->Branch("muonLoose_3",&muonLoose_3,"muonLoose_3/O");
+    SynTree->Branch("muonMedium_3",&muonMedium_3,"muonMedium_3/O");
+    SynTree->Branch("muonTight_3",&muonTight_3,"muonTight_3/O");
     SynTree->Branch("electronSF_3",&electronSF_3,"electronSF_3/F");
     SynTree->Branch("electronIDSF_3",&electronIDSF_3,"electronIDSF_3/F");
+    SynTree->Branch("electronIDWP90v2_3",&electronIDWP90v2_3,"electronIDWP90v2_3/O");
+    SynTree->Branch("electronIDWP80v2_3",&electronIDWP80v2_3,"electronIDWP80v2_3/O");
+
     SynTree->Branch("tauSF_3",&tauSF_3,"tauSF_3/F");
     
     SynTree->Branch("pt_4",&pt_4,"pt_4/F");
@@ -444,9 +470,15 @@ int main(int argc, char * argv[]) {
     SynTree->Branch("VSmuVLoose_4",&VSmuVLoose_4,"VSmuVLoose_4/O");
     SynTree->Branch("pfmt_4",&pfmt_4,"pfmt_4/F");
     SynTree->Branch("muonSF_4",&muonSF_4,"muonSF_4/F");
+    SynTree->Branch("muonLoose_4",&muonLoose_4,"muonLoose_4/O");
+    SynTree->Branch("muonMedium_4",&muonMedium_4,"muonMedium_4/O");
+    SynTree->Branch("muonTight_4",&muonTight_4,"muonTight_4/O");
     SynTree->Branch("electronSF_4",&electronSF_4,"electronSF_4/F");
     SynTree->Branch("electronIDSF_4",&electronIDSF_4,"electronIDSF_4/F");
+    SynTree->Branch("electronIDWP90v2_4",&electronIDWP90v2_4,"electronIDWP90v2_4/O");
+    SynTree->Branch("electronIDWP80v2_4",&electronIDWP80v2_4,"electronIDWP80v2_4/O");
     SynTree->Branch("tauSF_4",&tauSF_4,"tauSF_4/F");
+    
     SynTree->Branch("met",&met,"met/F");
     SynTree->Branch("metphi",&metphi,"metphi/F");
     SynTree->Branch("metcov00",&metcov00,"metcov00/F");
@@ -749,6 +781,7 @@ int main(int argc, char * argv[]) {
             if (fabs(analysisTree.electron_eta[ie])>etaEleCut) continue;
             if (fabs(analysisTree.electron_dxy[ie])>dxyEleCut) continue;
             if (fabs(analysisTree.electron_dz[ie])>dzEleCut) continue;
+            //if (!analysisTree.electron_mva_wp80_noIso_Fall17_v2[ie]) continue;
             if (!analysisTree.electron_mva_wp90_noIso_Fall17_v2[ie]) continue;
             if (!analysisTree.electron_pass_conversion[ie]) continue;
             if (analysisTree.electron_nmissinghits[ie]>=2) continue;
@@ -1117,8 +1150,16 @@ int main(int argc, char * argv[]) {
             if(isElectron1SingleElectronMatched || isElectron2SingleElectronMatched)
                 isSingleElectronTriggerFilterMatched = true;
             
-            if ((isSingleElectronTriggerFilterMatched == false) && (isDoubleElectronTriggerFilterMatched == false))
-                continue;
+            if(applySingleEleTriggerOnly == false)//this setting is for switching on and off single electron trigger
+            {
+                if ((isSingleElectronTriggerFilterMatched == false) && (isDoubleElectronTriggerFilterMatched == false))
+                    continue;
+            }
+            else
+            {
+                if (isSingleElectronTriggerFilterMatched == false)
+                    continue;
+            }
         }
         
         //Here: count trigger objects matched
@@ -1244,6 +1285,8 @@ int main(int argc, char * argv[]) {
             electronIDSF_1 = (float)SF_eleIdIso->get_ScaleFactor(double(analysisTree.electron_pt[indexElectron1]),double(analysisTree.electron_eta[indexElectron1]));
         }
         IdRawMva_1 = analysisTree.electron_mva_value_noIso_Fall17_v2[indexElectron1];
+        electronIDWP80v2_1 = analysisTree.electron_mva_wp80_noIso_Fall17_v2[indexElectron1];
+        electronIDWP90v2_1 = analysisTree.electron_mva_wp90_noIso_Fall17_v2[indexElectron1];
         
         pt_2 = analysisTree.electron_pt[indexElectron2];
         phi_2 = analysisTree.electron_phi[indexElectron2];
@@ -1259,6 +1302,9 @@ int main(int argc, char * argv[]) {
             electronIDSF_2 = (float)SF_eleIdIso->get_ScaleFactor(double(analysisTree.electron_pt[indexElectron2]),double(analysisTree.electron_eta[indexElectron2]));
         }
         IdRawMva_2 = analysisTree.electron_mva_value_noIso_Fall17_v2[indexElectron2];
+        electronIDWP80v2_2 = analysisTree.electron_mva_wp80_noIso_Fall17_v2[indexElectron2];
+        electronIDWP90v2_2 = analysisTree.electron_mva_wp90_noIso_Fall17_v2[indexElectron2];
+        
         
         Z_DR = deltaR(analysisTree.electron_eta[indexElectron1],analysisTree.electron_phi[indexElectron1],analysisTree.electron_eta[indexElectron2],analysisTree.electron_phi[indexElectron2]);
         Z_SS = false;
@@ -1282,6 +1328,8 @@ int main(int argc, char * argv[]) {
                 electronIDSF_3 = (float)SF_eleIdIso->get_ScaleFactor(double(analysisTree.electron_pt[indexLeg3]),double(analysisTree.electron_eta[indexLeg3]));
             }
             Leg3.SetXYZM(analysisTree.electron_px[indexLeg3],analysisTree.electron_py[indexLeg3],analysisTree.electron_pz[indexLeg3],electronMass);
+            electronIDWP80v2_3 = analysisTree.electron_mva_wp80_noIso_Fall17_v2[indexLeg3];
+            electronIDWP90v2_3 = analysisTree.electron_mva_wp90_noIso_Fall17_v2[indexLeg3];
 
             pt_4 = analysisTree.muon_pt[indexLeg4];
             phi_4 = analysisTree.muon_phi[indexLeg4];
@@ -1292,6 +1340,9 @@ int main(int argc, char * argv[]) {
             absIso_4 += neutralIso_4;
             iso_4 = absIso_4/analysisTree.muon_pt[indexLeg4];
             Leg4.SetXYZM(analysisTree.muon_px[indexLeg4],analysisTree.muon_py[indexLeg4],analysisTree.muon_pz[indexLeg4],muonMass);
+            muonLoose_4 = analysisTree.muon_isLoose[indexLeg4];
+            muonMedium_4 = analysisTree.muon_isMedium[indexLeg4];
+            muonTight_4 = analysisTree.muon_isTight[indexLeg4];
         }
         if(HiggsFinalState == "ET")
         {
@@ -1309,6 +1360,9 @@ int main(int argc, char * argv[]) {
                 electronIDSF_3 = (float)SF_eleIdIso->get_ScaleFactor(double(analysisTree.electron_pt[indexLeg3]),double(analysisTree.electron_eta[indexLeg3]));
             }
             Leg3.SetXYZM(analysisTree.electron_px[indexLeg3],analysisTree.electron_py[indexLeg3],analysisTree.electron_pz[indexLeg3],electronMass);
+            electronIDWP80v2_3 = analysisTree.electron_mva_wp80_noIso_Fall17_v2[indexLeg3];
+            electronIDWP90v2_3 = analysisTree.electron_mva_wp90_noIso_Fall17_v2[indexLeg3];
+
             pt_4 = analysisTree.tau_pt[indexLeg4];
             phi_4 = analysisTree.tau_phi[indexLeg4];
             eta_4 = analysisTree.tau_eta[indexLeg4];
@@ -1352,7 +1406,10 @@ int main(int argc, char * argv[]) {
             absIso_3 += neutralIso_3;
             iso_3 = absIso_3/analysisTree.muon_pt[indexLeg3];
             Leg3.SetXYZM(analysisTree.muon_px[indexLeg3],analysisTree.muon_py[indexLeg3],analysisTree.muon_pz[indexLeg3],muonMass);
-        
+            muonLoose_3 = analysisTree.muon_isLoose[indexLeg3];
+            muonMedium_3 = analysisTree.muon_isMedium[indexLeg3];
+            muonTight_3 = analysisTree.muon_isTight[indexLeg3];
+            
             pt_4 = analysisTree.tau_pt[indexLeg4];
             phi_4 = analysisTree.tau_phi[indexLeg4];
             eta_4 = analysisTree.tau_eta[indexLeg4];
