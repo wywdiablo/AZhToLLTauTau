@@ -1,0 +1,8 @@
+root -l -q 'PlotNtupleVariables_ll_DataDrivenComplex.C("Mass_svc","m^{c}_{ll#tau#tau} [GeV]", "Events",0, 200, 20,true,true,false,true,"ll","em","*(nbtag==0&&m_sv>90&&m_sv<180)")'
+root -l -q 'PlotNtupleVariables_ll_DataDrivenComplex.C("Mass_svc","m^{c}_{ll#tau#tau} [GeV]", "Events",0, 200, 20,true,true,false,true,"ll","et","*(nbtag==0&&m_sv>90&&m_sv<180)")'
+root -l -q 'PlotNtupleVariables_ll_DataDrivenComplex.C("Mass_svc","m^{c}_{ll#tau#tau} [GeV]", "Events",0, 200, 20,true,true,false,true,"ll","mt","*(nbtag==0&&m_sv>90&&m_sv<180)")'
+root -l -q 'PlotNtupleVariables_ll_DataDrivenComplex.C("Mass_svc","m^{c}_{ll#tau#tau} [GeV]", "Events",0, 200, 20,true,true,false,true,"ll","tt","*(nbtag==0&&m_sv>90&&m_sv<180&&(pt_3+pt_4)>60)")'
+root -l -q 'PlotNtupleVariables_ll_DataDrivenComplex.C("Mass_svc","m^{c}_{ll#tau#tau} [GeV]", "Events",0, 200, 20,true,true,false,true,"ll","em","*(nbtag>=1&&m_sv>90&&m_sv<180)")'
+root -l -q 'PlotNtupleVariables_ll_DataDrivenComplex.C("Mass_svc","m^{c}_{ll#tau#tau} [GeV]", "Events",0, 200, 20,true,true,false,true,"ll","et","*(nbtag>=1&&m_sv>90&&m_sv<180)")'
+root -l -q 'PlotNtupleVariables_ll_DataDrivenComplex.C("Mass_svc","m^{c}_{ll#tau#tau} [GeV]", "Events",0, 200, 20,true,true,false,true,"ll","mt","*(nbtag>=1&&m_sv>90&&m_sv<180)")'
+root -l -q 'PlotNtupleVariables_ll_DataDrivenComplex.C("Mass_svc","m^{c}_{ll#tau#tau} [GeV]", "Events",0, 200, 20,true,true,false,true,"ll","tt","*(nbtag>=1&&m_sv>90&&m_sv<180&&(pt_3+pt_4)>60)")'

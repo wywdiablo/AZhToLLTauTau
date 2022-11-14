@@ -1,0 +1,1438 @@
+---- Event Number: 1447102
+-------------------------
+--PV (Primary Vertex) 
+--PV z   : 0.577517
+--PV ndof: 48.9795
+--PV dist: 0.0016448
+--PV is good! 
+-------------------------
+--Electron information 
+-------------------------
+--Electron number: 0
+--It is selected as Z leg1
+--pT                 : 50.6759
+--eta                : -1.80619
+--phi                : -0.304016
+--dxy                : 0.00286464
+--dz                 : -0.0035375
+--MVA value noIso v2 : 1
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : 1
+-------------------------
+--Electron number: 1
+--It is selected as Z leg2
+--pT                 : 34.381
+--eta                : -1.90059
+--phi                : 2.77382
+--dxy                : -0.00238529
+--dz                 : 0.000300998
+--MVA value noIso v2 : 1
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+--Electron number: 2
+--It is selected as Higgs leg1
+--pT                 : 19.8348
+--eta                : -0.650284
+--phi                : -2.73879
+--dxy                : -0.00105062
+--dz                 : -0.000234492
+--MVA value noIso v2 : 0.999923
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+-------------------------
+--Muon information 
+-------------------------
+--Muon number    : 0
+--It is selected as Higgs leg2
+--pT                 : 22.602
+--eta                : -1.69355
+--phi                : 0.25563
+--dxy                : 0.00753686
+--dz                 : 0.0374221
+--Loose id           : 1
+--Global Muon        : 1
+--Tracker Muon       : 1
+--Charge             : 1
+-------------------------
+-------------------------
+--Tau information 
+-------------------------
+--Tau number     : 0
+--pT                 : 49.6043
+--eta                : -1.80619
+--phi                : -0.304016
+--dz(leading Track)  : -0.0035376
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.857098
+--VSe score          : 0.0042016
+--VSmu score         : 0.838487
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+--Tau number     : 1
+--pT                 : 37.7155
+--eta                : -1.91455
+--phi                : 2.78724
+--dz(leading Track)  : 0.000301056
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.534865
+--VSe score          : 0.00526145
+--VSmu score         : 0.746473
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 2
+--pT                 : 22.602
+--eta                : -1.69355
+--phi                : 0.25563
+--dz(leading Track)  : 0.0374219
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.999631
+--VSe score          : 0.998416
+--VSmu score         : 4.18197e-05
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 1
+--Tight VSe         : 1
+--VLoose VSmu         : 0
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+--Tau number     : 3
+--pT                 : 20.169
+--eta                : -0.649735
+--phi                : -2.74115
+--dz(leading Track)  : -0.000234528
+--NewDM              : 1
+--Decay mode         : 10
+--VSjet score        : 0.468775
+--VSe score          : 0.0892499
+--VSmu score         : 0.813211
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+-------------------------
+--Other information 
+-------------------------
+--SingleElectron Trigger:
+--The trigger filter    :hltEle35noerWPTightGsfTrackIsoFilter in HLT filter #31
+Trigger object #1 is matched to Z leg1 with DR 0.00231932
+Filter is :1
+Z leg1 pT :50.6759
+Z leg1 eta :-1.80619
+-------------------------
+Trigger object #2 is matched to Z leg2 with DR 0.0164327
+Filter is :0
+Trigger object #4 is matched to Z leg2 with DR 0.0035296
+Filter is :0
+Trigger object #5 is matched to Z leg2 with DR 0.0035296
+Filter is :0
+Z leg2 pT :34.381
+Z leg2 eta :-1.90059
+-------------------------
+--Electron 0 matched SingleElectron filter and passed pT and eta cuts
+-------------------------
+--mll                   :83.5321
+--# of baseline Electron:3
+--# of baseline Muon    :1
+--# of baseline Tau     :0
+--Z candidate found!
+--DR of leg1 and leg2   :3.07928
+--Higgs candidate found!
+--A candidate found!
+--DR of leg1 and leg3   :2.69523
+--DR of leg1 and leg4   :0.570869
+--DR of leg2 and leg3   :1.46869
+--DR of leg2 and leg4   :2.52669
+--DR of leg3 and leg4   :3.17096
+--Extra # of baseline Electron   :0
+--Extra # of baseline Muon       :0
+--Extra # of baseline Tau        :0
+--iso 1   :0.00582004
+--iso 2   :0
+--iso 3   :0.172953
+--iso 4   :0
+--iso ea 1   :0.00582004
+--iso ea 2   :0
+--iso ea 3   :0.222882
+--iso ea 4   :0
+-------------------------
+
+
+
+---- Event Number: 1683759
+-------------------------
+--PV (Primary Vertex) 
+--PV z   : 0.359013
+--PV ndof: 77.5443
+--PV dist: 0.0019
+--PV is good! 
+-------------------------
+--Electron information 
+-------------------------
+--Electron number: 0
+--It is selected as Z leg1
+--pT                 : 44.0803
+--eta                : -0.36228
+--phi                : -0.515805
+--dxy                : -0.00395672
+--dz                 : -0.0020964
+--MVA value noIso v2 : 1
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+--Electron number: 1
+--It is selected as Z leg2
+--pT                 : 43.296
+--eta                : 0.339816
+--phi                : 2.99992
+--dxy                : -0.0012208
+--dz                 : 0.00326615
+--MVA value noIso v2 : 0.999984
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 0
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : 1
+-------------------------
+--Electron number: 2
+--It is selected as Higgs leg1
+--pT                 : 18.9233
+--eta                : 0.679727
+--phi                : -0.613012
+--dxy                : -0.00211734
+--dz                 : 0.0122701
+--MVA value noIso v2 : 0.99998
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : 1
+-------------------------
+-------------------------
+--Muon information 
+-------------------------
+--Muon number    : 0
+--pT                 : 26.4647
+--eta                : -2.31724
+--phi                : 1.20121
+--dxy                : -1.57814
+--dz                 : -24.7118
+--Loose id           : 0
+--Global Muon        : 0
+--Tracker Muon       : 1
+--Charge             : -1
+-------------------------
+--Muon number    : 1
+--It is selected as Higgs leg2
+--pT                 : 23.1225
+--eta                : -0.0174336
+--phi                : 1.97058
+--dxy                : 0.00467367
+--dz                 : -0.000785868
+--Loose id           : 1
+--Global Muon        : 1
+--Tracker Muon       : 1
+--Charge             : -1
+-------------------------
+--Muon number    : 2
+--pT                 : 6.2703
+--eta                : -0.00196298
+--phi                : -2.64494
+--dxy                : 0.000748947
+--dz                 : -0.340272
+--Loose id           : 0
+--Global Muon        : 0
+--Tracker Muon       : 0
+--Charge             : 1
+-------------------------
+-------------------------
+--Tau information 
+-------------------------
+--Tau number     : 0
+--pT                 : 45.3557
+--eta                : -0.368062
+--phi                : -0.509863
+--dz(leading Track)  : -0.00209595
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.850727
+--VSe score          : 0.00351401
+--VSmu score         : 0.623984
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 1
+--pT                 : 43.3981
+--eta                : 0.339816
+--phi                : 2.99992
+--dz(leading Track)  : 0.0032666
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.804495
+--VSe score          : 0.00308871
+--VSmu score         : 0.738637
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+--Tau number     : 2
+--pT                 : 25.4826
+--eta                : -0.0142263
+--phi                : 1.95937
+--dz(leading Track)  : -0.000786133
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.99998
+--VSe score          : 0.998989
+--VSmu score         : 2.11081e-05
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 1
+--Tight VSe         : 1
+--VLoose VSmu         : 0
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 3
+--pT                 : 18.9881
+--eta                : 0.679727
+--phi                : -0.613012
+--dz(leading Track)  : 0.0122656
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.413943
+--VSe score          : 0.0238478
+--VSmu score         : 0.562563
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+-------------------------
+--Other information 
+-------------------------
+--SingleElectron Trigger:
+--The trigger filter    :hltEle35noerWPTightGsfTrackIsoFilter in HLT filter #31
+Trigger object #1 is matched to Z leg1 with DR 0.0153391
+Filter is :1
+Trigger object #4 is matched to Z leg1 with DR 0.0147713
+Filter is :0
+Z leg1 pT :44.0803
+Z leg1 eta :-0.36228
+-------------------------
+Trigger object #0 is matched to Z leg2 with DR 0.0165959
+Filter is :1
+Trigger object #5 is matched to Z leg2 with DR 0.0157551
+Filter is :0
+Trigger object #6 is matched to Z leg2 with DR 0.00285352
+Filter is :0
+Trigger object #7 is matched to Z leg2 with DR 0.00285352
+Filter is :0
+Z leg2 pT :43.296
+Z leg2 eta :0.339816
+-------------------------
+--Electron 0 matched SingleElectron filter and passed pT and eta cuts
+--Electron 1 matched SingleElectron filter and passed pT and eta cuts
+-------------------------
+--mll                   :91.3785
+--# of baseline Electron:3
+--# of baseline Muon    :1
+--# of baseline Tau     :0
+--Z candidate found!
+--DR of leg1 and leg2   :2.85514
+--Higgs candidate found!
+--A candidate found!
+--DR of leg1 and leg3   :1.04653
+--DR of leg1 and leg4   :2.51018
+--DR of leg2 and leg3   :2.69181
+--DR of leg2 and leg4   :1.08957
+--DR of leg3 and leg4   :2.676
+--Extra # of baseline Electron   :0
+--Extra # of baseline Muon       :0
+--Extra # of baseline Tau        :0
+--iso 1   :0.023549
+--iso 2   :0.0273501
+--iso 3   :0.265785
+--iso 4   :0.0269051
+--iso ea 1   :0
+--iso ea 2   :0.00733148
+--iso ea 3   :0.171756
+--iso ea 4   :0
+-------------------------
+
+
+
+---- Event Number: 1819489
+-------------------------
+--PV (Primary Vertex) 
+--PV z   : 1.24973
+--PV ndof: 82.4798
+--PV dist: 0.00170169
+--PV is good! 
+-------------------------
+--Electron information 
+-------------------------
+--Electron number: 0
+--It is selected as Z leg1
+--pT                 : 71.5644
+--eta                : 1.67641
+--phi                : -0.898276
+--dxy                : -0.0149023
+--dz                 : -0.00673476
+--MVA value noIso v2 : 0.999976
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 1
+--Charge             : 1
+-------------------------
+--Electron number: 1
+--It is selected as Z leg2
+--pT                 : 35.0265
+--eta                : 2.3468
+--phi                : 1.22037
+--dxy                : -0.00575313
+--dz                 : -0.0226279
+--MVA value noIso v2 : 0.999993
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+--Electron number: 2
+--It is selected as Higgs leg1
+--pT                 : 23.9571
+--eta                : 1.38431
+--phi                : 1.89554
+--dxy                : -0.00448954
+--dz                 : 0.00447409
+--MVA value noIso v2 : 0.999922
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+-------------------------
+--Muon information 
+-------------------------
+--Muon number    : 0
+--It is selected as Higgs leg2
+--pT                 : 23.1434
+--eta                : 0.272038
+--phi                : -0.742623
+--dxy                : 0.0084418
+--dz                 : -0.00416867
+--Loose id           : 1
+--Global Muon        : 1
+--Tracker Muon       : 1
+--Charge             : 1
+-------------------------
+--Muon number    : 1
+--pT                 : 3.2093
+--eta                : 2.17501
+--phi                : 2.84785
+--dxy                : -0.138903
+--dz                 : 72.3354
+--Loose id           : 0
+--Global Muon        : 0
+--Tracker Muon       : 0
+--Charge             : -1
+-------------------------
+-------------------------
+--Tau information 
+-------------------------
+--Tau number     : 0
+--pT                 : 75.019
+--eta                : 1.67641
+--phi                : -0.898276
+--dz(leading Track)  : -0.0067334
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.969986
+--VSe score          : 0.0306161
+--VSmu score         : 0.910476
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 1
+--Charge             : 1
+-------------------------
+--Tau number     : 1
+--pT                 : 35.0187
+--eta                : 2.3468
+--phi                : 1.22037
+--dz(leading Track)  : -0.0226367
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.940105
+--VSe score          : 0.00983694
+--VSmu score         : 0.618122
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 2
+--pT                 : 25.772
+--eta                : 1.38928
+--phi                : 1.90561
+--dz(leading Track)  : 0.0044751
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.620286
+--VSe score          : 0.00602846
+--VSmu score         : 0.524065
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 3
+--pT                 : 24.9663
+--eta                : 0.255791
+--phi                : -0.749734
+--dz(leading Track)  : -0.00416748
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.922665
+--VSe score          : 0.871081
+--VSmu score         : 0.00502492
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 1
+--Tight VSe         : 0
+--VLoose VSmu         : 0
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+-------------------------
+--Other information 
+-------------------------
+--SingleElectron Trigger:
+--The trigger filter    :hltEle35noerWPTightGsfTrackIsoFilter in HLT filter #31
+Trigger object #0 is matched to Z leg1 with DR 0.0141613
+Filter is :1
+Trigger object #3 is matched to Z leg1 with DR 0.0131671
+Filter is :0
+Trigger object #5 is matched to Z leg1 with DR 0.0131671
+Filter is :0
+Z leg1 pT :71.5644
+Z leg1 eta :1.67641
+-------------------------
+Trigger object #1 is matched to Z leg2 with DR 0.0117058
+Filter is :0
+Z leg2 pT :35.0265
+Z leg2 eta :2.3468
+-------------------------
+--Electron 0 matched SingleElectron filter and passed pT and eta cuts
+-------------------------
+--mll                   :93.7756
+--# of baseline Electron:3
+--# of baseline Muon    :1
+--# of baseline Tau     :0
+--Z candidate found!
+--DR of leg1 and leg2   :2.22218
+--Higgs candidate found!
+--A candidate found!
+--DR of leg1 and leg3   :2.80905
+--DR of leg1 and leg4   :1.41297
+--DR of leg2 and leg3   :1.17569
+--DR of leg2 and leg4   :2.85622
+--DR of leg3 and leg4   :2.86305
+--Extra # of baseline Electron   :0
+--Extra # of baseline Muon       :0
+--Extra # of baseline Tau        :0
+--iso 1   :0
+--iso 2   :0.00357409
+--iso 3   :0.247516
+--iso 4   :0.0671249
+--iso ea 1   :0
+--iso ea 2   :0.00357409
+--iso ea 3   :0.224152
+--iso ea 4   :0
+-------------------------
+
+
+
+---- Event Number: 2205628
+-------------------------
+--PV (Primary Vertex) 
+--PV z   : 2.43892
+--PV ndof: 119.824
+--PV dist: 0.00187007
+--PV is good! 
+-------------------------
+--Electron information 
+-------------------------
+--Electron number: 0
+--It is selected as Z leg2
+--pT                 : 44.1582
+--eta                : -0.492124
+--phi                : -0.388036
+--dxy                : -0.00198546
+--dz                 : 0.00254569
+--MVA value noIso v2 : 0.999999
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+--Electron number: 1
+--It is selected as Z leg1
+--pT                 : 45.1494
+--eta                : -1.26016
+--phi                : 1.61338
+--dxy                : 0.000602182
+--dz                 : -0.00191961
+--MVA value noIso v2 : 1
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : 1
+-------------------------
+--Electron number: 2
+--It is selected as Higgs leg1
+--pT                 : 12.6525
+--eta                : -1.18717
+--phi                : -0.902261
+--dxy                : 0.00401705
+--dz                 : 0.00367835
+--MVA value noIso v2 : 0.998543
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : 1
+-------------------------
+-------------------------
+--Muon information 
+-------------------------
+--Muon number    : 0
+--It is selected as Higgs leg2
+--pT                 : 47.4738
+--eta                : -0.860431
+--phi                : 2.80552
+--dxy                : -0.00136441
+--dz                 : -0.00102478
+--Loose id           : 1
+--Global Muon        : 1
+--Tracker Muon       : 1
+--Charge             : -1
+-------------------------
+-------------------------
+--Tau information 
+-------------------------
+--Tau number     : 0
+--pT                 : 47.4738
+--eta                : -0.860431
+--phi                : 2.80552
+--dz(leading Track)  : -0.00102478
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.999967
+--VSe score          : 0.991162
+--VSmu score         : 5.69248e-06
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 1
+--Tight VSe         : 1
+--VLoose VSmu         : 0
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 1
+--pT                 : 44.1524
+--eta                : -0.492124
+--phi                : -0.388036
+--dz(leading Track)  : 0.00254639
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.887176
+--VSe score          : 0.0106768
+--VSmu score         : 0.504403
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 2
+--pT                 : 43.3137
+--eta                : -1.26016
+--phi                : 1.61338
+--dz(leading Track)  : -0.00192017
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.967711
+--VSe score          : 0.00592159
+--VSmu score         : 0.590298
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+--Tau number     : 3
+--pT                 : 19.9393
+--eta                : 2.44287
+--phi                : -2.63737
+--dz(leading Track)  : -0.0144629
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.495908
+--VSe score          : 0.861809
+--VSmu score         : 0.981078
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 1
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 1
+--Charge             : 1
+-------------------------
+-------------------------
+--Other information 
+-------------------------
+--SingleElectron Trigger:
+--The trigger filter    :hltEle35noerWPTightGsfTrackIsoFilter in HLT filter #31
+Trigger object #1 is matched to Z leg1 with DR 0.0164531
+Filter is :1
+Trigger object #4 is matched to Z leg1 with DR 0.0194892
+Filter is :0
+Trigger object #6 is matched to Z leg1 with DR 0.00449578
+Filter is :0
+Trigger object #8 is matched to Z leg1 with DR 0.00449578
+Filter is :0
+Trigger object #10 is matched to Z leg1 with DR 0.00449578
+Filter is :0
+Trigger object #12 is matched to Z leg1 with DR 0.00449578
+Filter is :0
+Trigger object #14 is matched to Z leg1 with DR 0.00449578
+Filter is :0
+Z leg1 pT :45.1494
+Z leg1 eta :-1.26016
+-------------------------
+Trigger object #0 is matched to Z leg2 with DR 0.0243732
+Filter is :1
+Trigger object #3 is matched to Z leg2 with DR 0.0295589
+Filter is :0
+Trigger object #5 is matched to Z leg2 with DR 0.00500938
+Filter is :0
+Trigger object #7 is matched to Z leg2 with DR 0.00500938
+Filter is :0
+Trigger object #9 is matched to Z leg2 with DR 0.00500938
+Filter is :0
+Trigger object #11 is matched to Z leg2 with DR 0.00500938
+Filter is :0
+Trigger object #13 is matched to Z leg2 with DR 0.00500938
+Filter is :0
+Z leg2 pT :44.1582
+Z leg2 eta :-0.492124
+-------------------------
+--Electron 1 matched SingleElectron filter and passed pT and eta cuts
+--Electron 0 matched SingleElectron filter and passed pT and eta cuts
+-------------------------
+--mll                   :82.9875
+--# of baseline Electron:3
+--# of baseline Muon    :1
+--# of baseline Tau     :0
+--Z candidate found!
+--DR of leg1 and leg2   :2.14372
+--Higgs candidate found!
+--A candidate found!
+--DR of leg1 and leg3   :2.5167
+--DR of leg1 and leg4   :1.25737
+--DR of leg2 and leg3   :0.864592
+--DR of leg2 and leg4   :3.1115
+--DR of leg3 and leg4   :2.59605
+--Extra # of baseline Electron   :0
+--Extra # of baseline Muon       :0
+--Extra # of baseline Tau        :0
+--iso 1   :0.00834929
+--iso 2   :0.0519993
+--iso 3   :0.272434
+--iso 4   :0.0365311
+--iso ea 1   :0.00834929
+--iso ea 2   :0.0409532
+--iso ea 3   :0.184793
+--iso ea 4   :0
+-------------------------
+
+
+
+---- Event Number: 1493374
+-------------------------
+--PV (Primary Vertex) 
+--PV z   : 0.506675
+--PV ndof: 174.299
+--PV dist: 0.00179511
+--PV is good! 
+-------------------------
+--Electron information 
+-------------------------
+--Electron number: 0
+--It is selected as Higgs leg1
+--pT                 : 50.8478
+--eta                : 0.159947
+--phi                : -1.68071
+--dxy                : -0.00319747
+--dz                 : -0.000121642
+--MVA value noIso v2 : 1
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : 1
+-------------------------
+--Electron number: 1
+--It is selected as Z leg1
+--pT                 : 48.1591
+--eta                : -0.100475
+--phi                : 1.20149
+--dxy                : 0.000877614
+--dz                 : -0.0116632
+--MVA value noIso v2 : 1
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+--Electron number: 2
+--It is selected as Z leg2
+--pT                 : 33.3797
+--eta                : -1.23532
+--phi                : -2.38081
+--dxy                : -7.93356e-05
+--dz                 : -0.00208322
+--MVA value noIso v2 : 0.999991
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 1
+--Charge             : 1
+-------------------------
+-------------------------
+--Muon information 
+-------------------------
+--Muon number    : 0
+--It is selected as Higgs leg2
+--pT                 : 21.9712
+--eta                : -1.43245
+--phi                : 0.876496
+--dxy                : 0.00383394
+--dz                 : 0.0150829
+--Loose id           : 1
+--Global Muon        : 1
+--Tracker Muon       : 1
+--Charge             : -1
+-------------------------
+-------------------------
+--Tau information 
+-------------------------
+--Tau number     : 0
+--pT                 : 53.5848
+--eta                : 0.155169
+--phi                : -1.68256
+--dz(leading Track)  : -0.000121613
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.764364
+--VSe score          : 0.0052151
+--VSmu score         : 0.686526
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+--Tau number     : 1
+--pT                 : 48.3416
+--eta                : -0.100475
+--phi                : 1.20149
+--dz(leading Track)  : -0.0116602
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.900404
+--VSe score          : 0.00554379
+--VSmu score         : 0.753967
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 2
+--pT                 : 32.8476
+--eta                : -1.23532
+--phi                : -2.38081
+--dz(leading Track)  : -0.00208374
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.774983
+--VSe score          : 0.0051361
+--VSmu score         : 0.480736
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+--Tau number     : 3
+--pT                 : 21.9712
+--eta                : -1.43245
+--phi                : 0.876496
+--dz(leading Track)  : 0.0150781
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.999987
+--VSe score          : 0.998592
+--VSmu score         : 3.93817e-06
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 1
+--Tight VSe         : 1
+--VLoose VSmu         : 0
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+-------------------------
+--Other information 
+-------------------------
+--SingleElectron Trigger:
+--The trigger filter    :hltEle35noerWPTightGsfTrackIsoFilter in HLT filter #31
+Trigger object #0 is matched to Z leg1 with DR 0.0169372
+Filter is :0
+Trigger object #4 is matched to Z leg1 with DR 0.0016399
+Filter is :0
+Trigger object #5 is matched to Z leg1 with DR 0.0016399
+Filter is :0
+Trigger object #6 is matched to Z leg1 with DR 0.0016399
+Filter is :0
+Trigger object #7 is matched to Z leg1 with DR 0.0016399
+Filter is :0
+Z leg1 pT :48.1591
+Z leg1 eta :-0.100475
+-------------------------
+Trigger object #2 is matched to Z leg2 with DR 0.0245057
+Filter is :0
+Z leg2 pT :33.3797
+Z leg2 eta :-1.23532
+-------------------------
+--Either no SingleElectron trigger filter matched to any Z leg or passed pT and eta cuts!
+-------------------------
+--mll                   :91.7888
+--# of baseline Electron:3
+--# of baseline Muon    :1
+--# of baseline Tau     :0
+--Z candidate found!
+--DR of leg1 and leg2   :2.92962
+--Higgs candidate found!
+--A candidate found!
+--DR of leg1 and leg3   :2.89394
+--DR of leg1 and leg4   :1.37105
+--DR of leg2 and leg3   :1.56106
+--DR of leg2 and leg4   :3.03229
+--DR of leg3 and leg4   :3.01248
+--Extra # of baseline Electron   :0
+--Extra # of baseline Muon       :0
+--Extra # of baseline Tau        :0
+--iso 1   :0.00798046
+--iso 2   :0.019101
+--iso 3   :0.0687939
+--iso 4   :0.0118482
+--iso ea 1   :0
+--iso ea 2   :0.019101
+--iso ea 3   :0.0341352
+--iso ea 4   :0
+-------------------------
+
+
+
+---- Event Number: 2566568
+-------------------------
+--PV (Primary Vertex) 
+--PV z   : 0.613241
+--PV ndof: 105.708
+--PV dist: 0.00197073
+--PV is good! 
+-------------------------
+--Electron information 
+-------------------------
+--Electron number: 0
+--It is selected as Z leg1
+--pT                 : 49.3629
+--eta                : -0.380832
+--phi                : -0.559709
+--dxy                : -0.00127943
+--dz                 : -0.000298747
+--MVA value noIso v2 : 1
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+--Electron number: 1
+--It is selected as Z leg2
+--pT                 : 37.6071
+--eta                : -0.959187
+--phi                : 1.96564
+--dxy                : -0.000563372
+--dz                 : -0.00028893
+--MVA value noIso v2 : 0.999779
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 0
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : 1
+-------------------------
+--Electron number: 2
+--It is selected as Higgs leg1
+--pT                 : 35.1511
+--eta                : -0.314284
+--phi                : 2.22022
+--dxy                : 0.00303723
+--dz                 : -0.000576816
+--MVA value noIso v2 : 0.999973
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 0
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+-------------------------
+--Muon information 
+-------------------------
+--Muon number    : 0
+--It is selected as Higgs leg2
+--pT                 : 78.3216
+--eta                : -0.386477
+--phi                : -1.17123
+--dxy                : -0.000460364
+--dz                 : 0.000951356
+--Loose id           : 1
+--Global Muon        : 1
+--Tracker Muon       : 1
+--Charge             : 1
+-------------------------
+-------------------------
+--Tau information 
+-------------------------
+--Tau number     : 0
+--pT                 : 79.6585
+--eta                : -0.388735
+--phi                : -1.16737
+--dz(leading Track)  : 0.000951538
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.994023
+--VSe score          : 0.954495
+--VSmu score         : 1.04391e-05
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 1
+--Tight VSe         : 0
+--VLoose VSmu         : 0
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+--Tau number     : 1
+--pT                 : 49.2534
+--eta                : -0.380832
+--phi                : -0.559709
+--dz(leading Track)  : -0.000298767
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.831107
+--VSe score          : 0.00177165
+--VSmu score         : 0.74373
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 2
+--pT                 : 37.0753
+--eta                : -0.959187
+--phi                : 1.96564
+--dz(leading Track)  : -0.000289001
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.913076
+--VSe score          : 0.0191747
+--VSmu score         : 0.692529
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+--Tau number     : 3
+--pT                 : 34.8555
+--eta                : -0.314248
+--phi                : 2.21987
+--dz(leading Track)  : -0.000576782
+--NewDM              : 1
+--Decay mode         : 5
+--VSjet score        : 0.555662
+--VSe score          : 0.00968079
+--VSmu score         : 0.320614
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+-------------------------
+--Other information 
+-------------------------
+--SingleElectron Trigger:
+--The trigger filter    :hltEle35noerWPTightGsfTrackIsoFilter in HLT filter #31
+Trigger object #0 is matched to Z leg1 with DR 0.00786677
+Filter is :1
+Trigger object #6 is matched to Z leg1 with DR 0.0169782
+Filter is :0
+Trigger object #7 is matched to Z leg1 with DR 0.00307155
+Filter is :0
+Trigger object #9 is matched to Z leg1 with DR 0.00307155
+Filter is :0
+Trigger object #11 is matched to Z leg1 with DR 0.00307155
+Filter is :0
+Trigger object #13 is matched to Z leg1 with DR 0.00307155
+Filter is :0
+Trigger object #15 is matched to Z leg1 with DR 0.00307155
+Filter is :0
+Z leg1 pT :49.3629
+Z leg1 eta :-0.380832
+-------------------------
+Trigger object #1 is matched to Z leg2 with DR 0.0204551
+Filter is :0
+Trigger object #4 is matched to Z leg2 with DR 0.0221517
+Filter is :0
+Trigger object #8 is matched to Z leg2 with DR 0.00568738
+Filter is :0
+Trigger object #10 is matched to Z leg2 with DR 0.00568738
+Filter is :0
+Trigger object #12 is matched to Z leg2 with DR 0.00568738
+Filter is :0
+Trigger object #14 is matched to Z leg2 with DR 0.00568738
+Filter is :0
+Trigger object #16 is matched to Z leg2 with DR 0.00568738
+Filter is :0
+Z leg2 pT :37.6071
+Z leg2 eta :-0.959187
+-------------------------
+--Electron 0 matched SingleElectron filter and passed pT and eta cuts
+-------------------------
+--mll                   :85.9134
+--# of baseline Electron:3
+--# of baseline Muon    :1
+--# of baseline Tau     :0
+--Z candidate found!
+--DR of leg1 and leg2   :2.59073
+--Higgs candidate found!
+--A candidate found!
+--DR of leg1 and leg3   :2.78073
+--DR of leg1 and leg4   :0.611546
+--DR of leg2 and leg3   :0.693331
+--DR of leg2 and leg4   :3.18872
+--DR of leg3 and leg4   :2.89264
+--Extra # of baseline Electron   :0
+--Extra # of baseline Muon       :0
+--Extra # of baseline Tau        :0
+--iso 1   :0.00599009
+--iso 2   :0.11931
+--iso 3   :0
+--iso 4   :0.027842
+--iso ea 1   :0.00599009
+--iso ea 2   :0.180007
+--iso ea 3   :0.0200103
+--iso ea 4   :0
+-------------------------
+
+
+
+---- Event Number: 2556407
+-------------------------
+--PV (Primary Vertex) 
+--PV z   : 5.12201
+--PV ndof: 21.5526
+--PV dist: 0.00194296
+--PV is good! 
+-------------------------
+--Electron information 
+-------------------------
+--Electron number: 0
+--It is selected as Higgs leg1
+--pT                 : 44.1588
+--eta                : 1.08866
+--phi                : -2.18725
+--dxy                : -0.00357805
+--dz                 : -0.00445522
+--MVA value noIso v2 : 0.999999
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+--Electron number: 1
+--It is selected as Z leg1
+--pT                 : 42.1503
+--eta                : 1.54332
+--phi                : 0.307687
+--dxy                : -0.00056701
+--dz                 : 0.00552982
+--MVA value noIso v2 : 0.999998
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : -1
+-------------------------
+--Electron number: 2
+--It is selected as Z leg2
+--pT                 : 35.609
+--eta                : 0.148121
+--phi                : -1.22885
+--dxy                : 0.00331931
+--dz                 : 0.000587817
+--MVA value noIso v2 : 0.999999
+--MVA WP90 noIso v2  : 1
+--MVA WP80 noIso v2  : 1
+--Pass Coversion     : 1
+--N Missing Hits     : 0
+--Charge             : 1
+-------------------------
+-------------------------
+--Muon information 
+-------------------------
+--Muon number    : 0
+--It is selected as Higgs leg2
+--pT                 : 35.2233
+--eta                : 2.01998
+--phi                : 0.968764
+--dxy                : -0.00119653
+--dz                 : 0.00527164
+--Loose id           : 1
+--Global Muon        : 1
+--Tracker Muon       : 1
+--Charge             : 1
+-------------------------
+-------------------------
+--Tau information 
+-------------------------
+--Tau number     : 0
+--pT                 : 44.3474
+--eta                : 1.08866
+--phi                : -2.18725
+--dz(leading Track)  : -0.00445557
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.88714
+--VSe score          : 0.00654793
+--VSmu score         : 0.594434
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 1
+--pT                 : 42.1807
+--eta                : 1.54332
+--phi                : 0.307687
+--dz(leading Track)  : 0.00553223
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.973629
+--VSe score          : 0.00480987
+--VSmu score         : 0.710875
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : -1
+-------------------------
+--Tau number     : 2
+--pT                 : 37.1571
+--eta                : 0.151233
+--phi                : -1.2261
+--dz(leading Track)  : 0.000587769
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.657612
+--VSe score          : 0.00495067
+--VSmu score         : 0.612147
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 0
+--VLoose VSe         : 0
+--Tight VSe         : 0
+--VLoose VSmu         : 1
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+--Tau number     : 3
+--pT                 : 35.2233
+--eta                : 2.01998
+--phi                : 0.968764
+--dz(leading Track)  : 0.00527344
+--NewDM              : 1
+--Decay mode         : 0
+--VSjet score        : 0.999689
+--VSe score          : 0.975613
+--VSmu score         : 7.18408e-06
+--VVVLoose VSjet     : 1
+--Medium VSjet     : 1
+--VLoose VSe         : 1
+--Tight VSe         : 1
+--VLoose VSmu         : 0
+--Tight VSmu         : 0
+--Charge             : 1
+-------------------------
+-------------------------
+--Other information 
+-------------------------
+--SingleElectron Trigger:
+--The trigger filter    :hltEle35noerWPTightGsfTrackIsoFilter in HLT filter #31
+Trigger object #5 is matched to Z leg1 with DR 0.0241008
+Filter is :0
+Trigger object #7 is matched to Z leg1 with DR 0.00827518
+Filter is :0
+Trigger object #9 is matched to Z leg1 with DR 0.00827518
+Filter is :0
+Trigger object #11 is matched to Z leg1 with DR 0.00827518
+Filter is :0
+Trigger object #13 is matched to Z leg1 with DR 0.00827518
+Filter is :0
+Trigger object #15 is matched to Z leg1 with DR 0.00827518
+Filter is :0
+Z leg1 pT :42.1503
+Z leg1 eta :1.54332
+-------------------------
+Trigger object #0 is matched to Z leg2 with DR 0.0414599
+Filter is :0
+Trigger object #4 is matched to Z leg2 with DR 0.0488701
+Filter is :0
+Trigger object #6 is matched to Z leg2 with DR 0.00117488
+Filter is :0
+Trigger object #8 is matched to Z leg2 with DR 0.00117488
+Filter is :0
+Trigger object #10 is matched to Z leg2 with DR 0.00117488
+Filter is :0
+Trigger object #12 is matched to Z leg2 with DR 0.00117488
+Filter is :0
+Trigger object #14 is matched to Z leg2 with DR 0.00117488
+Filter is :0
+Z leg2 pT :35.609
+Z leg2 eta :0.148121
+-------------------------
+--Either no SingleElectron trigger filter matched to any Z leg or passed pT and eta cuts!
+-------------------------
+--mll                   :79.5395
+--# of baseline Electron:3
+--# of baseline Muon    :1
+--# of baseline Tau     :0
+--Z candidate found!
+--DR of leg1 and leg2   :2.07546
+--Higgs candidate found!
+--A candidate found!
+--DR of leg1 and leg3   :2.53602
+--DR of leg1 and leg4   :0.815001
+--DR of leg2 and leg3   :1.34281
+--DR of leg2 and leg4   :2.88676
+--DR of leg3 and leg4   :3.26291
+--Extra # of baseline Electron   :0
+--Extra # of baseline Muon       :0
+--Extra # of baseline Tau        :0
+--iso 1   :0.00375482
+--iso 2   :0.0089156
+--iso 3   :0.0435324
+--iso 4   :0
+--iso ea 1   :0
+--iso ea 2   :0
+--iso ea 3   :0
+--iso ea 4   :0
+-------------------------
+
+
+

@@ -1,0 +1,58 @@
+#!/bin/sh
+./hadd.sh NTuples_EGamma_Run2018A
+./hadd.sh NTuples_EGamma_Run2018B
+./hadd.sh NTuples_EGamma_Run2018C
+./hadd.sh NTuples_EGamma_Run2018D
+
+rm NTuples_EGamma_2018.root
+hadd NTuples_EGamma_2018.root NTuples_EGamma_Run2018A.root NTuples_EGamma_Run2018B.root NTuples_EGamma_Run2018C.root NTuples_EGamma_Run2018D.root
+
+./hadd.sh NTuples_DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8
+./hadd.sh NTuples_DY1JetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8
+./hadd.sh NTuples_DY2JetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8
+./hadd.sh NTuples_DY3JetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8
+./hadd.sh NTuples_DY4JetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8
+
+./hadd.sh NTuples_GluGluToContinToZZTo2e2mu_13TeV_TuneCP5_MCFM701_pythia8
+./hadd.sh NTuples_GluGluToContinToZZTo2e2tau_13TeV_TuneCP5_MCFM701_pythia8
+./hadd.sh NTuples_GluGluToContinToZZTo2mu2tau_13TeV_TuneCP5_MCFM701_pythia8
+./hadd.sh NTuples_GluGluToContinToZZTo4e_13TeV_TuneCP5_MCFM701_pythia8
+./hadd.sh NTuples_GluGluToContinToZZTo4mu_13TeV_TuneCP5_MCFM701_pythia8
+./hadd.sh NTuples_GluGluToContinToZZTo4tau_13TeV_TuneCP5_MCFM701_pythia8
+
+./hadd.sh NTuples_TTWJetsToLNu_TuneCP5_PSweights_13TeV-amcatnloFXFX-madspin-pythia8
+./hadd.sh NTuples_TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8
+./hadd.sh NTuples_TTToHadronic_TuneCP5_13TeV-powheg-pythia8
+./hadd.sh NTuples_TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8
+./hadd.sh NTuples_ttZJets_TuneCP5_13TeV_madgraphMLM_pythia8
+
+./hadd.sh NTuples_WWW_4F_TuneCP5_13TeV-amcatnlo-pythia8
+./hadd.sh NTuples_WWZ_TuneCP5_13TeV-amcatnlo-pythia8
+./hadd.sh NTuples_WZZ_TuneCP5_13TeV-amcatnlo-pythia8
+./hadd.sh NTuples_ZZZ_TuneCP5_13TeV-amcatnlo-pythia8
+
+./hadd.sh NTuples_WZTo3LNu_TuneCP5_13TeV-amcatnloFXFX-pythia8
+./hadd.sh NTuples_ZZTo4L_TuneCP5_13TeV_powheg_pythia8
+
+./hadd.sh NTuples_WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8
+./hadd.sh NTuples_ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8
+./hadd.sh NTuples_ZZTo2L2Q_13TeV_TuneCP5_amcatnloFXFX_madspin_pythia8_ext1
+hadd NTuples_ZZTo2L2Q.root NTuples_ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root NTuples_ZZTo2L2Q_13TeV_TuneCP5_amcatnloFXFX_madspin_pythia8_ext1.root
+./hadd.sh NTuples_WZTo3LNu_TuneCP5_13TeV-powheg-pythia8
+
+./hadd.sh NTuples_GluGluHToTauTau_M125_13TeV_powheg_pythia8
+./hadd.sh NTuples_VBFHToTauTau_M125_13TeV_powheg_pythia8
+./hadd.sh NTuples_WminusHToTauTau_M125_13TeV_powheg_pythia8
+./hadd.sh NTuples_WplusHToTauTau_M125_13TeV_powheg_pythia8
+./hadd.sh NTuples_ZHToTauTau_M125_13TeV_powheg_pythia8
+./hadd.sh NTuples_ttHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8
+./hadd.sh NTuples_GluGluHToWWTo2L2Nu_M125_13TeV_powheg2_JHUGenV714_pythia8
+./hadd.sh NTuples_VBFHToWWTo2L2Nu_M125_13TeV_powheg2_JHUGenV714_pythia8
+./hadd.sh NTuples_HWminusJ_HToWW_M125_13TeV_powheg_jhugen724_pythia8_TuneCP5
+./hadd.sh NTuples_HWplusJ_HToWW_M125_13TeV_powheg_jhugen724_pythia8_TuneCP5
+./hadd.sh NTuples_HZJ_HToWW_M125_13TeV_powheg_jhugen714_pythia8_TuneCP5
+./hadd.sh NTuples_GluGluZH_HToWW_M125_13TeV_powheg_pythia8_TuneCP5_PSweights
+./hadd.sh NTuples_GluGluZH_HToWW_M125_13TeV_powheg_pythia8_TuneCP5_PSweights
+./hadd.sh NTuples_GluGluHToZZTo4L_M125_13TeV_powheg2_JHUGenV7011_pythia8
+
+
